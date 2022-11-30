@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+        <types>
+        <members>Contact</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Project__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Project_Member__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>TaskList__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Schedule_Interview__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Feed__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Like__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Comment__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Poll__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Poll_Choice__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Contact.Birthdate</members>
+        <members>Contact.Email</members>
+        <members>Contact.Password1__c</members>
+        <members>Contact.Job_Title__c</members>
+        <members>Contact.Skills__c</members>
+        <members>Contact.Experience__c</members>
+        <members>Contact.EmployeeNumber__c</members>
+        <members>Contact.Date_Of_Joining__c</members>
+        <members>Contact.Gender__c</members>
+        <members>Contact.Phone_Number__c</members>
+        <members>Contact.ReportingTo__c</members>
+        <members>Contact.Profile_Picture__c</members>
+        <name>CustomField</name>
+    </types>
+   <types>
+        <members>Project_Member__c.Member_Number__c</members>
+        <members>Project_Member__c.UserName__c</members>
+        <members>Project_Member__c.name</members>
+        <members>Project_Member__c.Role__c</members>
+        <name>CustomField</name>
+    </types>
+      <types>
+        <members>Project__c.Project_Name__c</members>
+        <members>Project__c.Project_Manager__c</members>
+        <members>Project__c.Project_Lead__c</members>
+        <members>Project__c.Project_Description__c</members>
+        <members>Project__c.Start_Date__c</members>
+        <members>Project__c.Contract_End_Date__c</members>
+        <name>CustomField</name>
+      </types>
+    <types>
+    <members>TaskList__c.Assigned_By__c</members>
+    <members>TaskList__c.Availability__c</members>
+    <members>TaskList__c.billable_hours__c</members>
+    <members>TaskList__c.Project_Name__c</members>
+    <members>TaskList__c.Status__c</members>
+    <members>TaskList__c.Task_AssignTime__c</members>
+    <members>TaskList__c.Task_Description__c</members>
+    <members>TaskList__c.User_Name__c</members>
+    <members>TaskList__c.Work_Type__c</members>
+    <members>TaskList__c.Name</members>
+    <name>CustomField</name>
+    </types>
+    <types>
+    <members>Schedule_Interview__c.Company_Name__c</members>
+    <members>Schedule_Interview__c.Description__c</members>
+    <members>Schedule_Interview__c.Interview_Mode__c</members>
+    <members>Schedule_Interview__c.InvitationLink__c</members>
+    <members>Schedule_Interview__c.Profile__c</members>
+    <members>Schedule_Interview__c.Reporting_Location__c</members>
+    <members>Schedule_Interview__c.Schedule_Interview_End_DateTime__c</members>
+    <members>Schedule_Interview__c.Title__c</members>
+    <name>CustomField</name>
+    </types>
+    <types>
+    <members>Feed__c.Content__c</members>
+    <members>Feed__c.Created_Date__c</members>
+    <members>Feed__c.number_of_comments__c</members>
+    <members>Feed__c.Number_Of_Likes__c</members>
+    <members>Feed__c.User_Name__c</members>
+    <name>CustomField</name>
+    </types>
+    <types>
+    <members>Like__c.Feed__c</members>
+    <members>Like__c.Inserted_By__c</members>
+    <name>CustomField</name>
+    </types>
+     <types>
+    <members>Comment__c.Comment_Body__c</members>
+    <members>Comment__c.Created_Date__c</members>
+    <members>Comment__c.Feed__c</members>
+    <members>Comment__c.Inserted_By__c</members>
+    <members>Comment__c.Inserted_By__c</members>
+    <members>Comment__c.Inserted_By__c</members>
+    <members>Comment__c.Inserted_By__c</members>
+    <name>CustomField</name>
+    </types>
+    <types>
+    <members>Poll__c.Expiration_Date__c</members>
+    <members>Poll__c.Question__c</members>
+    <members>Poll__c.Start_Date__c</members>
+    <members>Poll__c.User_Name__c</members>
+    <name>CustomField</name>
+    </types>
+     <types>
+    <members>Poll_Choice__c.Choice_Body__c</members>
+    <members>Poll_Choice__c.Poll__c</members>
+    <members>Poll_Choice__c.Vote_Count__c</members>
+    <name>CustomField</name>
+    </types>
+     <types>
+     <members>System Administrator</members>
+      <members>EmployeeTaskList Profile</members>
+     <name>Profile</name>
+    </types>
+    <types>
+    <members>Contact-Contact Layout</members>Project_Member__c
+    <members>Project_Member__c-Project Member Layout</members>
+    <members>Project__c-Project Layout</members>
+    <members>TaskList__c-TaskList Layout</members>
+    <members>Schedule_Interview__c-Schedule Interview Layout</members>
+    <members>Feed__c-Feed Layout</members>
+    <members>Like__c-Like Layout</members>
+    <members>Comment__c-Comment Layout</members>
+    <members>Poll__c-Poll Layout</members>
+     <members>Poll_Choice__c-Poll Choice Layout</members>
+    <name>Layout</name>
+</types>
+    <version>55.0</version>
+</Package>
